@@ -1,0 +1,12 @@
+Contiguous vs Linked Data Structures
+	- First is sigle contiguous slab of memory.
+	- eg. array, matrices, heaps and hash tables
+	- Second is distinct chunk of memory, bound together by pointers
+Array
+	- constant access time for given index
+	- space effecient, no pointers
+	- memory locality
+	- fixed size
+List
+	- dynamic size
+	- O(n) access times
